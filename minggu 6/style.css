@@ -1,0 +1,52 @@
+.navbar
+{
+    background-color: deepskyblue;
+}
+.ul-navbar
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.li-navbar
+{
+    border: 2px solid black;
+    background-color: ivory;
+    padding: 20px;
+    margin: 5px;
+    list-style-type: none;
+}
+.li-navbar:hover
+{
+    background-color: aqua;
+    transition: .5s;
+    transition-delay: .3s;
+}
+h1
+{
+    background-color: deepskyblue;
+    padding: 4px;
+}
+h2{
+    color: black;
+    background-color: deepskyblue;
+    padding: 3px;
+}
+.menu 
+{
+    text-align: center;
+    background-color: deepskyblue;
+    font-size:18px;
+    padding-top: 16pt;
+}
+.button 
+{
+    background-color: white;
+    padding: 5px;
+    border-color: deepskyblue;
+    text-decoration: none;
+}
+.button:hover 
+{
+    background-color: blue;
+}

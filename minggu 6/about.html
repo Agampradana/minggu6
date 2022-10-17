@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Project Website</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="ul-navbar">
+            <li class="li-navbar">
+                <a href="index.html" class="a-navbar">HOME</a>
+            </li>
+            <li class="li-navbar">
+                <a href="cv.html" class="a-navbar">DOWNLOAD</a>
+            </li>
+            <li class="li-navbar">
+                <a href="about.html" class="a-navbar">ABOUT</a>
+            </li>
+            <li class="li-navbar">
+                <a href="contact.html" class="a-navbar">CONTACT ME</a>
+            </li>
+        </ul>
+    </div>
+
+ <hr />
+
+ <article>
+    <h1>Tentang Partai Demokrat</h1>
+    <p>
+        Partai Demokrat adalah sebuah partai politik Indonesia.
+        Partai ini didirikan pada 9 September 2001 dan disahkan pada 27 Agustus 2003.
+        Partai Demokrat didirikan atas inisiatif saudara Susilo Bambang Yudhoyono yang terilhami
+        oleh kekalahan terhormat saudara Susilo Bambang Yudhoyono pada pemilihan Calon wakil Presiden
+        dalam Sidang MPR tahun 2001.
+    </p>
+    <h2>Tentang Saya Penulis Website</h2>
+    <p>
+        Saya masih baru dalam web development, karena itu
+        saya tidak akan pernah berhenti belajar dan terus menambah pengalaman saya pribadi.
+    </p>
+    <p>
+        Saya ingin menguasai bahasa HTML, CSS, Phyton, Javascript dan bahasa pemrograman lainnya.
+        Simak video lengkap tentang saya.
+    </p>
+    <p>
+        <button onclick="durationVid()" type="button">Duration</button>
+        <button onclick="playVid()" type="button">Play Video</button>
+        <button onclick="pauseVid()" type="button">Pause Video</button>
+        <button onclick="skipVid()" type="button">Skip Video</button> 
+    </p>
+    <p>
+        <video id="myVideo" width="420" height="340" controls>
+        <source src="sejarah demokrat.mp4"
+        type="video/webm"/>
+        </video>
+    </p>
+    <script>
+        var vid= document.getElementById("myVideo")
+        function durationVid(){
+            vid.duration();
+        }
+        function playVid(){
+            vid.play();
+        }
+        function pauseVid(){
+            vid.pause();
+        }
+        function skipVid(){
+            vid.skip();
+        }
+    </script>
+ </article>
+
+ <hr>
+ <footer style="text-align: center;">
+    <p>Copyright &copy;2022 Ryo Agam Pradana</p>
+ </footer>
+</body>
+</html>
